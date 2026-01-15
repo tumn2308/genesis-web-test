@@ -1,7 +1,7 @@
 how to run 
 npm i -> npm run dev
 
-deploy link:
+deploy link: https://genesis-web-test-npntkngrp-tuvacats-projects.vercel.app/
 
 
 folder structure:
