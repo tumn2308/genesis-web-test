@@ -2,10 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ path: string[] }> }
+  { params }: { params: Promise<{}> }
 ) {
-  const { path } = await params;
-  return handleElearningRequest(request, path, "GET");
+  return handleElearningRequest(request, [], "GET");
 }
 
 async function handleElearningRequest(
